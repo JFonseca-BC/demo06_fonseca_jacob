@@ -1,1 +1,65 @@
+/* New Color Palette:
+* Silver (Text):           #C7C7C7      (text, contrast with dark)
+* Waikawa Gray (Primary):  #5D5D8D      
+* Tuna (Secondary):        #363639      (canvas background)
+* Scarpa Flow (Accent):    #565665
+*/
 
+body {
+    background-color: #363639;
+}
+
+.navbar, footer {
+    background-color: #5D5D8D;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 24pt;
+    font-weight: bold;
+    letter-spacing: -1pt;
+    font-family: Kanit;
+}
+
+.nav-link {
+    color: #c7c7c7;
+}
+
+.btn {
+    border: 1px solid #070707;
+    color: #070707
+}
+
+footer {
+    height: 100%;
+    display: block;
+}
+
+.form-check {
+    color: #c7c7c7;
+}
+
+.form-check-input:checked {
+    background-color: #5D5D8D;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btnf {
+    background-color: #565665;
+    margin-top: 20px;
+}
+
+.btnf:hover {
+    background-color: #5D5D8D;
+}
+
+.form-group label {
+    color: #c7c7c7;
+}
+
+.form-group small {
+    color: #565656;
+}
